@@ -2,7 +2,7 @@
 
 ## H2 etc
 
-![alt](./image.png "hover-text")
+![alt-text](./image.png "hover-text")
 
 **bold** _italic_ ~~strike through~~
 
@@ -16,8 +16,6 @@
 alert("hello world");
 ```
 
-Sentence with footnote. [^1]
-
 1. ordered item
 
 - unordered item
@@ -28,5 +26,3 @@ Sentence with footnote. [^1]
 | Heading | Heading 2 | Heading 3 |
 | ------- | :-------: | --------: |
 | Item    |   Item    |      Item |
-
-[^1]: This is the footnote
