@@ -2,33 +2,31 @@
 
 ## H2 etc
 
---- <-- horizontal rule
-**bold**
-_italic_
-~~strike through~~
-
-[link](https://google.com)
 ![alt](./image.png "hover-text")
 
-> blockquote
-> `code` <-- inline
+**bold** _italic_ ~~strike through~~
 
-```javascript <-- block (language optional)
+---
+
+[link](https://google.com) `code`
+
+> blockquote
+
+```javascript
 alert("hello world");
 ```
 
-Sentence with footnote [^1]
-[^1]: This is the footnote
+Sentence with footnote. [^1]
 
 1. ordered item
 
-- unordered item - sub unordered item
-  term
-  : definition
+- unordered item
 
 - [x] completed task
 - [ ] uncompleted task
 
-| Heading | Heading 2 |  Etc |
-| ------- | :-------: | ---: |
-| Item    |   Item    | Item |
+| Heading | Heading 2 | Heading 3 |
+| ------- | :-------: | --------: |
+| Item    |   Item    |      Item |
+
+[^1]: This is the footnote
